@@ -20,7 +20,7 @@ struct StartView: View {
             
             Spacer()
             
-            Text("Hello, young adventurer. Welcome to the Bad Battle Simulation app, where you will face off with deadly monsters such as: The Bugbear, The Zombie, and much more!!!")
+            Text("Hello, young (or old) adventurer. Welcome to the Bad Battle Simulation app, where you will face off with deadly monsters such as: The Bugbear, The Zombie, maybe even a spectator or two!")
                 .font(.title)
                 .bold()
                 .padding()
@@ -28,20 +28,19 @@ struct StartView: View {
             Spacer()
             
             Button(action: {
-                
-                
-                
+                // TODO: Send to battle view
             }, label: {
                 ZStack {
-                    RectangleCard(color: .green)
-                    Text("Begin Battle")
+                    RectangleCard(color: .red)
+                    Text("Begin The Battle of your Life")
                         .bold()
                         .foregroundColor(.black)
                 }
             })
             
             Spacer()
-                
+                Text("*This is a demo project, all rights belong to thier respective owners.")
+                    .font(.caption2)
         }
     }
 }
