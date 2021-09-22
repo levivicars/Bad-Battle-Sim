@@ -13,6 +13,8 @@
 		49A15BCF26FB81A0006068A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A15BCE26FB81A0006068A4 /* Preview Assets.xcassets */; };
 		49A15BDB26FB8253006068A4 /* Monsters.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 49A15BDA26FB8253006068A4 /* Monsters.JSON */; };
 		49A15BDD26FB9344006068A4 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A15BDC26FB9344006068A4 /* RectangleCard.swift */; };
+		49A15BDF26FBB20F006068A4 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A15BDE26FBB20F006068A4 /* BattleView.swift */; };
+		49A15BE626FBB342006068A4 /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A15BE526FBB342006068A4 /* Monsters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		49A15BD026FB81A0006068A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A15BDA26FB8253006068A4 /* Monsters.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Monsters.JSON; sourceTree = "<group>"; };
 		49A15BDC26FB9344006068A4 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		49A15BDE26FBB20F006068A4 /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
+		49A15BE526FBB342006068A4 /* Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 				49A15BD626FB81C6006068A4 /* Views */,
 				49A15BD726FB81CD006068A4 /* ViewModels */,
 				49A15BD826FB81E4006068A4 /* ContentModels */,
+				49A15BE226FBB283006068A4 /* Services */,
 				49A15BD926FB822F006068A4 /* Data */,
 				49A15BCB26FB81A0006068A4 /* Assets.xcassets */,
 				49A15BD026FB81A0006068A4 /* Info.plist */,
@@ -81,6 +86,7 @@
 			children = (
 				49A15BC926FB819F006068A4 /* StartView.swift */,
 				49A15BDC26FB9344006068A4 /* RectangleCard.swift */,
+				49A15BDE26FBB20F006068A4 /* BattleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 		49A15BD826FB81E4006068A4 /* ContentModels */ = {
 			isa = PBXGroup;
 			children = (
+				49A15BE526FBB342006068A4 /* Monsters.swift */,
 			);
 			path = ContentModels;
 			sourceTree = "<group>";
@@ -105,6 +112,13 @@
 				49A15BDA26FB8253006068A4 /* Monsters.JSON */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		49A15BE226FBB283006068A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A15BDD26FB9344006068A4 /* RectangleCard.swift in Sources */,
+				49A15BE626FBB342006068A4 /* Monsters.swift in Sources */,
 				49A15BCA26FB819F006068A4 /* StartView.swift in Sources */,
+				49A15BDF26FBB20F006068A4 /* BattleView.swift in Sources */,
 				49A15BC826FB819F006068A4 /* Bad_Battle_SimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
