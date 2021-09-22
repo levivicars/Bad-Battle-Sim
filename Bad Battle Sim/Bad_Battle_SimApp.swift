@@ -11,7 +11,7 @@ import SwiftUI
 struct Bad_Battle_SimApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }

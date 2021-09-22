@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		49A15BC826FB819F006068A4 /* Bad_Battle_SimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A15BC726FB819F006068A4 /* Bad_Battle_SimApp.swift */; };
-		49A15BCA26FB819F006068A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A15BC926FB819F006068A4 /* ContentView.swift */; };
+		49A15BCA26FB819F006068A4 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A15BC926FB819F006068A4 /* StartView.swift */; };
 		49A15BCC26FB81A0006068A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A15BCB26FB81A0006068A4 /* Assets.xcassets */; };
 		49A15BCF26FB81A0006068A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A15BCE26FB81A0006068A4 /* Preview Assets.xcassets */; };
+		49A15BDB26FB8253006068A4 /* Monsters.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 49A15BDA26FB8253006068A4 /* Monsters.JSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49A15BC426FB819F006068A4 /* Bad Battle Sim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Battle Sim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A15BC726FB819F006068A4 /* Bad_Battle_SimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_Battle_SimApp.swift; sourceTree = "<group>"; };
-		49A15BC926FB819F006068A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49A15BC926FB819F006068A4 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		49A15BCB26FB81A0006068A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A15BCE26FB81A0006068A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49A15BD026FB81A0006068A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A15BDA26FB8253006068A4 /* Monsters.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Monsters.JSON; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				49A15BC726FB819F006068A4 /* Bad_Battle_SimApp.swift */,
-				49A15BC926FB819F006068A4 /* ContentView.swift */,
+				49A15BD626FB81C6006068A4 /* Views */,
+				49A15BD726FB81CD006068A4 /* ViewModels */,
+				49A15BD826FB81E4006068A4 /* ContentModels */,
+				49A15BD926FB822F006068A4 /* Data */,
 				49A15BCB26FB81A0006068A4 /* Assets.xcassets */,
 				49A15BD026FB81A0006068A4 /* Info.plist */,
 				49A15BCD26FB81A0006068A4 /* Preview Content */,
@@ -67,6 +72,36 @@
 				49A15BCE26FB81A0006068A4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49A15BD626FB81C6006068A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49A15BC926FB819F006068A4 /* StartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49A15BD726FB81CD006068A4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		49A15BD826FB81E4006068A4 /* ContentModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContentModels;
+			sourceTree = "<group>";
+		};
+		49A15BD926FB822F006068A4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				49A15BDA26FB8253006068A4 /* Monsters.JSON */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A15BCF26FB81A0006068A4 /* Preview Assets.xcassets in Resources */,
+				49A15BDB26FB8253006068A4 /* Monsters.JSON in Resources */,
 				49A15BCC26FB81A0006068A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A15BCA26FB819F006068A4 /* ContentView.swift in Sources */,
+				49A15BCA26FB819F006068A4 /* StartView.swift in Sources */,
 				49A15BC826FB819F006068A4 /* Bad_Battle_SimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

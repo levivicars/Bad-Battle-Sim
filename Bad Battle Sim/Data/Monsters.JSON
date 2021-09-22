@@ -1,0 +1,100 @@
+[
+    {
+        "Name": "Bugbear",
+        "image": "bugbear",
+        "id": 0,
+        "AC": 16,
+        "maxHealth": 27,
+        "attackDamage": 11
+    },
+    {
+         "Name": "Cultist",
+         "image": "cultist",
+         "id": 1,
+         "AC": 12,
+         "maxHealth": 9,
+         "attackDamage": 4
+    },
+    {
+         "Name": "Giant Spider",
+         "image": "giantSpider",
+         "id": 2,
+         "AC": 14,
+         "maxHealth": 26,
+         "attackDamage": 7
+    },
+    {
+         "Name": "Goblin",
+         "image": "goblin",
+         "id": 3,
+         "AC": 15,
+         "maxHealth": 7,
+         "attackDamage" : 5
+     
+    },
+    {
+         "Name": "Ogre",
+         "image": "ogre",
+         "id": 4,
+         "AC": 11,
+         "maxHealth": 59,
+         "attackDamage": 13
+    },
+    {
+         "Name": "Orc",
+         "image": "orc",
+         "id": 5,
+         "AC": 13,
+         "maxHealth": 15,
+         "attackDamage": 9
+     
+    },
+    {
+         "Name": "Owlbear",
+         "image": "owlbear",
+         "id": 6,
+         "AC": 13,
+         "maxHealh": 59,
+         "attackDamage": 10
+    },
+    {
+         "Name": "Redbrand Ruffian",
+         "image": "redbrandRuffian",
+         "id": 7,
+         "AC": 14,
+         "maxHealth": 16,
+         "attackDamage": 5
+    },
+    {
+         "Name": "Spectator",
+         "image": "spectator",
+         "id": 8,
+         "AC": 14,
+         "maxHealth": 39,
+         "attackDamage": 2
+    },
+    {
+         "Name": "Wolf",
+         "image": "wolf",
+         "id": 9,
+         "AC": 13,
+         "maxHealth": 11,
+         "attackDamage": 7
+    },
+    {
+         "Name": "Venomfang",
+         "image": "venomfang",
+         "id": 10,
+         "AC": 18,
+         "maxHealth": 136,
+         "attackDamage": 11
+    },
+    {
+         "Name": "Zombie",
+         "image": "zombie",
+         "id": 11,
+         "AC": 8,
+         "maxHealth": 22,
+         "attackDamage": 4
+    }
+]
