@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Bugbear",
+        "name": "Bugbear",
         "image": "bugbear",
         "id": 0,
         "AC": 16,
@@ -8,7 +8,7 @@
         "attackDamage": 11
     },
     {
-         "Name": "Cultist",
+         "name": "Cultist",
          "image": "cultist",
          "id": 1,
          "AC": 12,
@@ -16,7 +16,7 @@
          "attackDamage": 4
     },
     {
-         "Name": "Giant Spider",
+         "name": "Giant Spider",
          "image": "giantSpider",
          "id": 2,
          "AC": 14,
@@ -24,7 +24,7 @@
          "attackDamage": 7
     },
     {
-         "Name": "Goblin",
+         "name": "Goblin",
          "image": "goblin",
          "id": 3,
          "AC": 15,
@@ -33,7 +33,7 @@
      
     },
     {
-         "Name": "Ogre",
+         "name": "Ogre",
          "image": "ogre",
          "id": 4,
          "AC": 11,
@@ -41,7 +41,7 @@
          "attackDamage": 13
     },
     {
-         "Name": "Orc",
+         "name": "Orc",
          "image": "orc",
          "id": 5,
          "AC": 13,
@@ -50,7 +50,7 @@
      
     },
     {
-         "Name": "Owlbear",
+         "name": "Owlbear",
          "image": "owlbear",
          "id": 6,
          "AC": 13,
@@ -58,7 +58,7 @@
          "attackDamage": 10
     },
     {
-         "Name": "Redbrand Ruffian",
+         "name": "Redbrand Ruffian",
          "image": "redbrandRuffian",
          "id": 7,
          "AC": 14,
@@ -66,7 +66,7 @@
          "attackDamage": 5
     },
     {
-         "Name": "Spectator",
+         "name": "Spectator",
          "image": "spectator",
          "id": 8,
          "AC": 14,
@@ -74,7 +74,7 @@
          "attackDamage": 2
     },
     {
-         "Name": "Wolf",
+         "name": "Wolf",
          "image": "wolf",
          "id": 9,
          "AC": 13,
@@ -82,7 +82,7 @@
          "attackDamage": 7
     },
     {
-         "Name": "Venomfang",
+         "name": "Venomfang",
          "image": "venomfang",
          "id": 10,
          "AC": 18,
@@ -90,7 +90,7 @@
          "attackDamage": 11
     },
     {
-         "Name": "Zombie",
+         "name": "Zombie",
          "image": "zombie",
          "id": 11,
          "AC": 8,

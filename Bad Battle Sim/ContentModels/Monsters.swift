@@ -8,13 +8,14 @@
 import Foundation
 
 
-class Monsters: Identifiable, Decodable {
+class Monsters: Decodable, Identifiable {
     
     var name: String
     var image: String
     var id: Int
     var AC: Int
-    var maxhealth: Int
-    var attackDamage: Int
+    var maxHealth: Int
+    var attackdamage: Int
+ 
     
 }
