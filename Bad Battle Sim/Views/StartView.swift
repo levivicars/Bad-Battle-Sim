@@ -14,7 +14,7 @@ struct StartView: View {
             Image("d&d")
                 .cornerRadius(10)
                 .scaleEffect(CGSize(width: 0.8, height: 0.8))
-                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                .shadow(radius: 10)
             Spacer()
             Text("Hello, young (or old) adventurer. Welcome to the Bad Battle Simulation app, where you will face off with deadly monsters such as: The Bugbear, The Zombie, maybe even a spectator or two! Press the red button to begin.")
                 .font(.title)
@@ -24,7 +24,8 @@ struct StartView: View {
             Spacer()
             
             Button {
-                // TODO Send to battle view
+                // TODO: Send to battle view
+                
             } label: {
                 ZStack {
                     RectangleCard(color: .red)
