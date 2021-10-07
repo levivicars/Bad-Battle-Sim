@@ -8,17 +8,9 @@
 import SwiftUI
 
 struct BattleView: View {
-    var randomInt = Int.random(in: 0...10)
     var body: some View {
-        Button {
-            
-        } label: {
-            Text("Generate")
-            Text(String(randomInt))
-        }
-
-            
-        
+        Text("Hello World!")
+            .padding()
     }
 }
 
