@@ -16,6 +16,7 @@ class Monsters: Decodable, Identifiable {
     var AC: Int
     var maxHealth: Int
     var attackdamage: Int
+    var imageScale: Int
  
     
 }

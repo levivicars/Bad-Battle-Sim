@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct StartView: View {
+    @EnvironmentObject var model: MonsterModel
     var body: some View {
         VStack {
             Spacer()
@@ -23,16 +24,41 @@ struct StartView: View {
                 .shadow(radius: 5)
             Spacer()
             
-            Button {
-                // TODO: Send to battle view
+            NavigationLink {
+                StatsView()
+            } label: {
+                ZStack {
+                    RectangleCard(color: .green, height: 65)
+                        .padding()
+                    
+                    Text("See Monster Stats")
+                        .bold()
+                        .foregroundColor(.black)
+                        .padding()
+                }
+            }
+
+
+            
+            
+            NavigationLink {
+                BattleView()
                 
             } label: {
                 ZStack {
-                    RectangleCard(color: .red)
+                    RectangleCard(color: .red, height: 65)
                     Text("Begin the battle of your life")
                         .bold()
                         .foregroundColor(.black)
                 }
+            }
+            
+            
+            Button {
+                // TODO: Send to battle view
+                
+            } label: {
+                
             }
             Spacer()
         }

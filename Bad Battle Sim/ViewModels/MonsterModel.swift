@@ -51,4 +51,9 @@ class MonsterModel: ObservableObject {
         return [Monsters]()
     }
     
+    init() {
+        GetRemoteData()
+    }
+    
 }
+
