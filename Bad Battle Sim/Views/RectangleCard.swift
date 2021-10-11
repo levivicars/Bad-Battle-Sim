@@ -14,7 +14,7 @@ struct RectangleCard: View {
         Rectangle()
             .cornerRadius(10)
             .foregroundColor(color)
-            .frame(width: 400, height: height)
+            .frame(width: 390, height: height)
             .shadow(radius: 20)
         
         

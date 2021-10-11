@@ -2,21 +2,23 @@
 //  StatsView.swift
 //  Bad Battle Sim
 //
-//  Created by Levi Vicars on 9/29/21.
+//  Created by Levi Vicars on 10/11/21.
 //
 
 import SwiftUI
 
 struct StatsView: View {
-    @EnvironmentObject var model: MonsterModel
-    var body: some View {
+    func statsCard(name: String, image: String, ac: Int, maxHealth: Int) {
         
-        ForEach(model.monsters) { m in
-            ZStack {
-                StatsViewRow(name: m.name, image: m.image, AC: m.AC, attackDamage: m.attackdamage, imageScale: 0.13)
-                
-            }
+        ZStack {
+            RectangleCard(color: .white, height: 100)
+            StatsViewRow(name: name, image: image, AC: ac, maxHealth: maxHealth)
         }
+    }
+    var body: some View {
+        Image("bugbear")
+            .scaleEffect(0.53)
+            
     }
 }
 
